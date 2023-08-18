@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5e40e0d9-9258-4266-b02f-210ea9eec6b5" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2TsEJTID3fzMeIyzf3Dhwo51z2w" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/python-django/FastApi-for-me/library-management-system/database&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\python-django\FastApi-for-me\library-management-system\database" />
+      <recent name="D:\python-django\FastApi-for-me\library-management-system\schemas" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\python-django\FastApi-for-me\library-management-system\database" />
+      <recent name="D:\python-django\FastApi-for-me\library-management-system" />
+      <recent name="D:\python-django\FastApi-for-me\library-management-system\schemas" />
+      <recent name="D:\python-django\FastApi-for-me\library-management-system\Models" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="library-management-system" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5e40e0d9-9258-4266-b02f-210ea9eec6b5" name="Changes" comment="" />
+      <created>1691823316000</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691823316000</updated>
+      <workItem from="1691823317155" duration="89000" />
+      <workItem from="1691823413941" duration="1208000" />
+      <workItem from="1691841969709" duration="3369000" />
+      <workItem from="1691852635986" duration="624000" />
+      <workItem from="1691859409214" duration="2144000" />
+      <workItem from="1691918081319" duration="1555000" />
+      <workItem from="1692003847109" duration="3181000" />
+      <workItem from="1692022547437" duration="5544000" />
+      <workItem from="1692030190538" duration="2269000" />
+      <workItem from="1692032518465" duration="4292000" />
+      <workItem from="1692039524480" duration="1916000" />
+      <workItem from="1692101206878" duration="4394000" />
+      <workItem from="1692106612278" duration="3000" />
+      <workItem from="1692137745441" duration="1896000" />
+      <workItem from="1692141985977" duration="1144000" />
+      <workItem from="1692166320827" duration="5230000" />
+      <workItem from="1692172350876" duration="174000" />
+      <workItem from="1692172621855" duration="2756000" />
+      <workItem from="1692175473112" duration="16802000" />
+      <workItem from="1692192315941" duration="30000" />
+      <workItem from="1692192439088" duration="3209000" />
+      <workItem from="1692196674623" duration="80000" />
+      <workItem from="1692196848884" duration="5390000" />
+      <workItem from="1692204246372" duration="23000" />
+      <workItem from="1692212274642" duration="455000" />
+      <workItem from="1692260673105" duration="12494000" />
+      <workItem from="1692275071356" duration="10274000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/library_management_system$main.coverage" NAME="main Coverage Results" MODIFIED="1692166508439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
