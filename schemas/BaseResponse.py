@@ -11,6 +11,7 @@ from schemas.UserSchemas import UserOut
 class BaseResponse(BaseModel):
     success: bool = True
     message: dict
+    data: list
     time: str = str(datetime.now())
     v: int = 1
 
@@ -31,7 +32,7 @@ class BaseResponseBorrowing(BaseResponse):
     data: BorrowingOut
 
 
-def validate_response(filed: str | list, errors: dict) -> dict:
+def validate_response(filed: str , errors: dict) -> dict:
     return {'field': filed, 'message': {
         "errors": errors
     }}

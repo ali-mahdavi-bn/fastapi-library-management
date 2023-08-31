@@ -2,6 +2,10 @@ from datetime import datetime
 
 from pydantic import BaseModel, EmailStr, field_validator
 
+from models.Model import Author
+
+
+
 
 class GetUser(BaseModel):
     id: int

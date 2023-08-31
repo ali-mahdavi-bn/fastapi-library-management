@@ -1,14 +1,14 @@
 [
     {
-        "label": "FastAPI",
-        "importPath": "fastapi",
-        "description": "fastapi",
+        "label": "execute",
+        "importPath": "distutils.util",
+        "description": "distutils.util",
         "isExtraImport": true,
-        "detail": "fastapi",
+        "detail": "distutils.util",
         "documentation": {}
     },
     {
-        "label": "Depends",
+        "label": "FastAPI",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -24,15 +24,7 @@
         "documentation": {}
     },
     {
-        "label": "FastAPI",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "FastAPI",
+        "label": "APIRouter",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -56,7 +48,55 @@
         "documentation": {}
     },
     {
+        "label": "Query",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
         "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "text",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
         "isExtraImport": true,
@@ -96,7 +136,7 @@
         "documentation": {}
     },
     {
-        "label": "Table",
+        "label": "DateTime",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
         "isExtraImport": true,
@@ -112,7 +152,55 @@
         "documentation": {}
     },
     {
-        "label": "DateTime",
+        "label": "Date",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "func",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "text",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
         "isExtraImport": true,
@@ -125,6 +213,54 @@
         "description": "sqlalchemy.ext.declarative",
         "isExtraImport": true,
         "detail": "sqlalchemy.ext.declarative",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
         "documentation": {}
     },
     {
@@ -160,24 +296,39 @@
         "documentation": {}
     },
     {
-        "label": "datetime",
-        "kind": 6,
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
         "isExtraImport": true,
-        "importPath": "datetime",
-        "description": "datetime",
-        "detail": "datetime",
+        "detail": "sqlalchemy.orm",
         "documentation": {}
     },
     {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
         "isExtraImport": true,
-        "detail": "datetime",
+        "detail": "sqlalchemy.orm",
         "documentation": {}
     },
     {
-        "label": "Base",
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
         "importPath": "database.database",
         "description": "database.database",
         "isExtraImport": true,
@@ -185,7 +336,7 @@
         "documentation": {}
     },
     {
-        "label": "SessionLocal",
+        "label": "engine",
         "importPath": "database.database",
         "description": "database.database",
         "isExtraImport": true,
@@ -209,15 +360,111 @@
         "documentation": {}
     },
     {
-        "label": "HTTPException",
-        "importPath": "http.client",
-        "description": "http.client",
+        "label": "engine",
+        "importPath": "database.database",
+        "description": "database.database",
         "isExtraImport": true,
-        "detail": "http.client",
+        "detail": "database.database",
         "documentation": {}
     },
     {
-        "label": "User",
+        "label": "engine",
+        "importPath": "database.database",
+        "description": "database.database",
+        "isExtraImport": true,
+        "detail": "database.database",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "importPath": "database.database",
+        "description": "database.database",
+        "isExtraImport": true,
+        "detail": "database.database",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "importPath": "database.database",
+        "description": "database.database",
+        "isExtraImport": true,
+        "detail": "database.database",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "importPath": "database.database",
+        "description": "database.database",
+        "isExtraImport": true,
+        "detail": "database.database",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "importPath": "database.database",
+        "description": "database.database",
+        "isExtraImport": true,
+        "detail": "database.database",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "importPath": "database.database",
+        "description": "database.database",
+        "isExtraImport": true,
+        "detail": "database.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "database.database",
+        "description": "database.database",
+        "isExtraImport": true,
+        "detail": "database.database",
+        "documentation": {}
+    },
+    {
+        "label": "Author",
+        "importPath": "models.Model",
+        "description": "models.Model",
+        "isExtraImport": true,
+        "detail": "models.Model",
+        "documentation": {}
+    },
+    {
+        "label": "Book",
+        "importPath": "models.Model",
+        "description": "models.Model",
+        "isExtraImport": true,
+        "detail": "models.Model",
+        "documentation": {}
+    },
+    {
+        "label": "City",
+        "importPath": "models.Model",
+        "description": "models.Model",
+        "isExtraImport": true,
+        "detail": "models.Model",
+        "documentation": {}
+    },
+    {
+        "label": "Book",
+        "importPath": "models.Model",
+        "description": "models.Model",
+        "isExtraImport": true,
+        "detail": "models.Model",
+        "documentation": {}
+    },
+    {
+        "label": "Borrowing",
+        "importPath": "models.Model",
+        "description": "models.Model",
+        "isExtraImport": true,
+        "detail": "models.Model",
+        "documentation": {}
+    },
+    {
+        "label": "Author",
         "importPath": "models.Model",
         "description": "models.Model",
         "isExtraImport": true,
@@ -233,19 +480,364 @@
         "documentation": {}
     },
     {
-        "label": "UserSchemas",
-        "importPath": "schemas",
-        "description": "schemas",
+        "label": "Book",
+        "importPath": "models.Model",
+        "description": "models.Model",
         "isExtraImport": true,
-        "detail": "schemas",
+        "detail": "models.Model",
         "documentation": {}
     },
     {
-        "label": "UserSchemas",
-        "importPath": "schemas",
-        "description": "schemas",
+        "label": "A",
+        "importPath": "models.Model",
+        "description": "models.Model",
         "isExtraImport": true,
-        "detail": "schemas",
+        "detail": "models.Model",
+        "documentation": {}
+    },
+    {
+        "label": "B",
+        "importPath": "models.Model",
+        "description": "models.Model",
+        "isExtraImport": true,
+        "detail": "models.Model",
+        "documentation": {}
+    },
+    {
+        "label": "AuthorCreate",
+        "importPath": "schemas.AuthorsSchemas",
+        "description": "schemas.AuthorsSchemas",
+        "isExtraImport": true,
+        "detail": "schemas.AuthorsSchemas",
+        "documentation": {}
+    },
+    {
+        "label": "AuthorCreate",
+        "importPath": "schemas.AuthorsSchemas",
+        "description": "schemas.AuthorsSchemas",
+        "isExtraImport": true,
+        "detail": "schemas.AuthorsSchemas",
+        "documentation": {}
+    },
+    {
+        "label": "AuthorOut",
+        "importPath": "schemas.AuthorsSchemas",
+        "description": "schemas.AuthorsSchemas",
+        "isExtraImport": true,
+        "detail": "schemas.AuthorsSchemas",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "BaseResponse",
+        "importPath": "schemas.BaseResponse",
+        "description": "schemas.BaseResponse",
+        "isExtraImport": true,
+        "detail": "schemas.BaseResponse",
+        "documentation": {}
+    },
+    {
+        "label": "BaseResponse",
+        "importPath": "schemas.BaseResponse",
+        "description": "schemas.BaseResponse",
+        "isExtraImport": true,
+        "detail": "schemas.BaseResponse",
+        "documentation": {}
+    },
+    {
+        "label": "BaseResponse",
+        "importPath": "schemas.BaseResponse",
+        "description": "schemas.BaseResponse",
+        "isExtraImport": true,
+        "detail": "schemas.BaseResponse",
+        "documentation": {}
+    },
+    {
+        "label": "BaseResponse",
+        "importPath": "schemas.BaseResponse",
+        "description": "schemas.BaseResponse",
+        "isExtraImport": true,
+        "detail": "schemas.BaseResponse",
+        "documentation": {}
+    },
+    {
+        "label": "BaseResponseBook",
+        "importPath": "schemas.BaseResponse",
+        "description": "schemas.BaseResponse",
+        "isExtraImport": true,
+        "detail": "schemas.BaseResponse",
+        "documentation": {}
+    },
+    {
+        "label": "validate_response",
+        "importPath": "schemas.BaseResponse",
+        "description": "schemas.BaseResponse",
+        "isExtraImport": true,
+        "detail": "schemas.BaseResponse",
+        "documentation": {}
+    },
+    {
+        "label": "BaseResponseBook",
+        "importPath": "schemas.BaseResponse",
+        "description": "schemas.BaseResponse",
+        "isExtraImport": true,
+        "detail": "schemas.BaseResponse",
+        "documentation": {}
+    },
+    {
+        "label": "BaseResponse",
+        "importPath": "schemas.BaseResponse",
+        "description": "schemas.BaseResponse",
+        "isExtraImport": true,
+        "detail": "schemas.BaseResponse",
+        "documentation": {}
+    },
+    {
+        "label": "BaseResponse",
+        "importPath": "schemas.BaseResponse",
+        "description": "schemas.BaseResponse",
+        "isExtraImport": true,
+        "detail": "schemas.BaseResponse",
+        "documentation": {}
+    },
+    {
+        "label": "BookCreate",
+        "importPath": "schemas.BooksSchemas",
+        "description": "schemas.BooksSchemas",
+        "isExtraImport": true,
+        "detail": "schemas.BooksSchemas",
+        "documentation": {}
+    },
+    {
+        "label": "BookOut",
+        "importPath": "schemas.BooksSchemas",
+        "description": "schemas.BooksSchemas",
+        "isExtraImport": true,
+        "detail": "schemas.BooksSchemas",
+        "documentation": {}
+    },
+    {
+        "label": "BookCreate",
+        "importPath": "schemas.BooksSchemas",
+        "description": "schemas.BooksSchemas",
+        "isExtraImport": true,
+        "detail": "schemas.BooksSchemas",
+        "documentation": {}
+    },
+    {
+        "label": "BookUpdate",
+        "importPath": "schemas.BooksSchemas",
+        "description": "schemas.BooksSchemas",
+        "isExtraImport": true,
+        "detail": "schemas.BooksSchemas",
+        "documentation": {}
+    },
+    {
+        "label": "BookOut",
+        "importPath": "schemas.BooksSchemas",
+        "description": "schemas.BooksSchemas",
+        "isExtraImport": true,
+        "detail": "schemas.BooksSchemas",
+        "documentation": {}
+    },
+    {
+        "label": "BorrowingCreate",
+        "importPath": "schemas.BrowingSchemas",
+        "description": "schemas.BrowingSchemas",
+        "isExtraImport": true,
+        "detail": "schemas.BrowingSchemas",
+        "documentation": {}
+    },
+    {
+        "label": "BorrowingOut",
+        "importPath": "schemas.BrowingSchemas",
+        "description": "schemas.BrowingSchemas",
+        "isExtraImport": true,
+        "detail": "schemas.BrowingSchemas",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreate",
+        "importPath": "schemas.UserSchemas",
+        "description": "schemas.UserSchemas",
+        "isExtraImport": true,
+        "detail": "schemas.UserSchemas",
+        "documentation": {}
+    },
+    {
+        "label": "UserOut",
+        "importPath": "schemas.UserSchemas",
+        "description": "schemas.UserSchemas",
+        "isExtraImport": true,
+        "detail": "schemas.UserSchemas",
+        "documentation": {}
+    },
+    {
+        "label": "Hash",
+        "importPath": "utility.hash",
+        "description": "utility.hash",
+        "isExtraImport": true,
+        "detail": "utility.hash",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "CustomValidations",
+        "importPath": "utility.CustomValidations",
+        "description": "utility.CustomValidations",
+        "isExtraImport": true,
+        "detail": "utility.CustomValidations",
+        "documentation": {}
+    },
+    {
+        "label": "Table",
+        "importPath": "sqlalchemy.testing.schema",
+        "description": "sqlalchemy.testing.schema",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.testing.schema",
+        "documentation": {}
+    },
+    {
+        "label": "view_author",
+        "importPath": "query.view.view_author",
+        "description": "query.view.view_author",
+        "isExtraImport": true,
+        "detail": "query.view.view_author",
+        "documentation": {}
+    },
+    {
+        "label": "Elasticsearch",
+        "importPath": "elasticsearch",
+        "description": "elasticsearch",
+        "isExtraImport": true,
+        "detail": "elasticsearch",
+        "documentation": {}
+    },
+    {
+        "label": "Search",
+        "importPath": "elasticsearch_dsl",
+        "description": "elasticsearch_dsl",
+        "isExtraImport": true,
+        "detail": "elasticsearch_dsl",
+        "documentation": {}
+    },
+    {
+        "label": "Q",
+        "importPath": "elasticsearch_dsl",
+        "description": "elasticsearch_dsl",
+        "isExtraImport": true,
+        "detail": "elasticsearch_dsl",
+        "documentation": {}
+    },
+    {
+        "label": "IntegrityError",
+        "importPath": "sqlalchemy.exc",
+        "description": "sqlalchemy.exc",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.exc",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "starlette",
+        "description": "starlette",
+        "isExtraImport": true,
+        "detail": "starlette",
+        "documentation": {}
+    },
+    {
+        "label": "get_book",
+        "importPath": "database.db_book",
+        "description": "database.db_book",
+        "isExtraImport": true,
+        "detail": "database.db_book",
+        "documentation": {}
+    },
+    {
+        "label": "create_book",
+        "importPath": "database.db_book",
+        "description": "database.db_book",
+        "isExtraImport": true,
+        "detail": "database.db_book",
         "documentation": {}
     },
     {
@@ -257,23 +849,119 @@
         "documentation": {}
     },
     {
-        "label": "get_db",
-        "importPath": "utility.get_db",
-        "description": "utility.get_db",
+        "label": "view_city",
+        "importPath": "query.view.view_city",
+        "description": "query.view.view_city",
         "isExtraImport": true,
-        "detail": "utility.get_db",
+        "detail": "query.view.view_city",
         "documentation": {}
     },
     {
-        "label": "hash_password",
-        "importPath": "utility.hashed_password",
-        "description": "utility.hashed_password",
+        "label": "view_gerne",
+        "importPath": "query.view.view_genre",
+        "description": "query.view.view_genre",
         "isExtraImport": true,
-        "detail": "utility.hashed_password",
+        "detail": "query.view.view_genre",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
         "documentation": {}
     },
     {
         "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "field_validator",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "EmailStr",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "field_validator",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "EmailStr",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "field_validator",
         "importPath": "pydantic",
         "description": "pydantic",
         "isExtraImport": true,
@@ -289,11 +977,11 @@
         "documentation": {}
     },
     {
-        "label": "CryptContext",
-        "importPath": "passlib.context",
-        "description": "passlib.context",
+        "label": "EntityBook",
+        "importPath": "models.DBRB",
+        "description": "models.DBRB",
         "isExtraImport": true,
-        "detail": "passlib.context",
+        "detail": "models.DBRB",
         "documentation": {}
     },
     {
@@ -315,7 +1003,39 @@
         "documentation": {}
     },
     {
-        "label": "users",
+        "label": "book",
+        "importPath": "router",
+        "description": "router",
+        "isExtraImport": true,
+        "detail": "router",
+        "documentation": {}
+    },
+    {
+        "label": "city",
+        "importPath": "router",
+        "description": "router",
+        "isExtraImport": true,
+        "detail": "router",
+        "documentation": {}
+    },
+    {
+        "label": "genre",
+        "importPath": "router",
+        "description": "router",
+        "isExtraImport": true,
+        "detail": "router",
+        "documentation": {}
+    },
+    {
+        "label": "author",
+        "importPath": "router",
+        "description": "router",
+        "isExtraImport": true,
+        "detail": "router",
+        "documentation": {}
+    },
+    {
+        "label": "tt",
         "importPath": "router",
         "description": "router",
         "isExtraImport": true,
@@ -368,11 +1088,155 @@
         "documentation": {}
     },
     {
+        "label": "Abcde",
+        "kind": 6,
+        "importPath": "database.db_authors",
+        "description": "database.db_authors",
+        "peekOfCode": "class Abcde(City, sessionmaker):\n    def __init__(self):\n        super().__init__()\n        self.db = SessionLocal()\n        self.data = self.db.query(Book).filter(Book.id == 1).first()\n        # self.data.name = \"zzzz\"\n        # self.db.commit()\n        # self.db.refresh(self.data)\n        # print(db.query(Book).filter(Book.id == 1).first().name)\n        # print(Depends(get_db).query(Book).filter(Book.id == 1).first())",
+        "detail": "database.db_authors",
+        "documentation": {}
+    },
+    {
+        "label": "optes",
+        "kind": 6,
+        "importPath": "database.db_authors",
+        "description": "database.db_authors",
+        "peekOfCode": "class optes(Abcde):\n    def __init__(self):\n        super().__init__()\n    def update(self, name, author_id=None):\n        self.name = name\n        self.author_id = author_id",
+        "detail": "database.db_authors",
+        "documentation": {}
+    },
+    {
+        "label": "create_author",
+        "kind": 2,
+        "importPath": "database.db_authors",
+        "description": "database.db_authors",
+        "peekOfCode": "def create_author(request: AuthorCreate, db: Session):\n    author = Author(name=request.name, user_id=request.user_id)\n    db.add(author)\n    db.commit()\n    db.refresh(author)\n    return author\ndef get_author(id, db: Session):\n    return db.query(Author).filter(Author.id == id).first()\nclass Abcde(City, sessionmaker):\n    def __init__(self):",
+        "detail": "database.db_authors",
+        "documentation": {}
+    },
+    {
+        "label": "get_author",
+        "kind": 2,
+        "importPath": "database.db_authors",
+        "description": "database.db_authors",
+        "peekOfCode": "def get_author(id, db: Session):\n    return db.query(Author).filter(Author.id == id).first()\nclass Abcde(City, sessionmaker):\n    def __init__(self):\n        super().__init__()\n        self.db = SessionLocal()\n        self.data = self.db.query(Book).filter(Book.id == 1).first()\n        # self.data.name = \"zzzz\"\n        # self.db.commit()\n        # self.db.refresh(self.data)",
+        "detail": "database.db_authors",
+        "documentation": {}
+    },
+    {
+        "label": "create_book_old",
+        "kind": 2,
+        "importPath": "database.db_book",
+        "description": "database.db_book",
+        "peekOfCode": "def create_book_old(request: BookCreate, db: Session):\n    books = Book(\n        title=request.title,\n        author_id=request.author_id\n    )\n    db.add(books)\n    db.commit()\n    db.refresh(books)\n    return books\ndef create_book(request) -> BaseResponse:",
+        "detail": "database.db_book",
+        "documentation": {}
+    },
+    {
+        "label": "create_book",
+        "kind": 2,
+        "importPath": "database.db_book",
+        "description": "database.db_book",
+        "peekOfCode": "def create_book(request) -> BaseResponse:\n    new_book = {\n        \"title\": 'Example Book',\n        \"publication_date\": datetime(2020, 1, 1),\n        \"isbn\": '1234567890',\n        \"price\": 10,\n        \"author_id\": 1,\n        \"is_active\": True,\n        \"soft_delete\": False,\n        \"created_at\": datetime(2020, 1, 1),",
+        "detail": "database.db_book",
+        "documentation": {}
+    },
+    {
+        "label": "get_book",
+        "kind": 2,
+        "importPath": "database.db_book",
+        "description": "database.db_book",
+        "peekOfCode": "def get_book(id, db: Session):\n    return db.query(Book).filter(Book.id == id).first()",
+        "detail": "database.db_book",
+        "documentation": {}
+    },
+    {
+        "label": "create_borrowing",
+        "kind": 2,
+        "importPath": "database.db_borrowing",
+        "description": "database.db_borrowing",
+        "peekOfCode": "def create_borrowing(request: BorrowingCreate, db: Session):\n    borrowing = Borrowing(book_id=request.book_id, user_id=request.user_id, borrowed_at=request.borrowed_at,\n                          expertime_at=request.expertime_at)\n    db.add(borrowing)\n    db.commit()\n    db.refresh(borrowing)\n    return borrowing\ndef get_borrowing(id, db: Session):\n    return db.query(Borrowing).filter(Borrowing.id == id).first()",
+        "detail": "database.db_borrowing",
+        "documentation": {}
+    },
+    {
+        "label": "get_borrowing",
+        "kind": 2,
+        "importPath": "database.db_borrowing",
+        "description": "database.db_borrowing",
+        "peekOfCode": "def get_borrowing(id, db: Session):\n    return db.query(Borrowing).filter(Borrowing.id == id).first()",
+        "detail": "database.db_borrowing",
+        "documentation": {}
+    },
+    {
+        "label": "create_user",
+        "kind": 2,
+        "importPath": "database.db_user",
+        "description": "database.db_user",
+        "peekOfCode": "def create_user(request: UserCreate, db: Session):\n    user = User(\n            name=request.name,\n            username=request.username,\n            email=request.email,\n            password=Hash.hash_password(request.password),\n            role=request.role,\n        )\n    db.add(user)\n    db.commit()",
+        "detail": "database.db_user",
+        "documentation": {}
+    },
+    {
+        "label": "get_user",
+        "kind": 2,
+        "importPath": "database.db_user",
+        "description": "database.db_user",
+        "peekOfCode": "def get_user(id, db: Session):\n    return db.query(User).filter(User.id == id).first()",
+        "detail": "database.db_user",
+        "documentation": {}
+    },
+    {
+        "label": "EntityBook",
+        "kind": 6,
+        "importPath": "models.DBRB",
+        "description": "models.DBRB",
+        "peekOfCode": "class EntityBook(Book):\n    def __init__(self):\n        self.session = Session()\n    def entity_title(self, value):\n        if CustomValidations.validate_string(value):\n            self.title = value\n        else:\n            raise ValueError(\"Invalid entity title\")\n    def entity_publication_date(self, value):\n        if CustomValidations.validate_date(value):",
+        "detail": "models.DBRB",
+        "documentation": {}
+    },
+    {
+        "label": "BaseRepository",
+        "kind": 6,
+        "importPath": "models.DBRB",
+        "description": "models.DBRB",
+        "peekOfCode": "class BaseRepository(ABC):\n    @abstractmethod\n    def save(self):\n        pass\nclass BookReposetory(EntityBook):\n    def save(self, title=None, author_id=None, publication_date=None) -> None:\n        self.title = 'title'\n        self.author_id = 1\n        self.publication_date = datetime.now()\n        self.isbn = \"code1\"",
+        "detail": "models.DBRB",
+        "documentation": {}
+    },
+    {
+        "label": "BookReposetory",
+        "kind": 6,
+        "importPath": "models.DBRB",
+        "description": "models.DBRB",
+        "peekOfCode": "class BookReposetory(EntityBook):\n    def save(self, title=None, author_id=None, publication_date=None) -> None:\n        self.title = 'title'\n        self.author_id = 1\n        self.publication_date = datetime.now()\n        self.isbn = \"code1\"\n        self.price = 2000\n        self.genres = \"test1\"\n        self.is_active = True\n        self.soft_delete = False",
+        "detail": "models.DBRB",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "kind": 5,
+        "importPath": "models.DBRB",
+        "description": "models.DBRB",
+        "peekOfCode": "Session = sessionmaker()\nSession.configure(bind=engine)\n#\nclass EntityBook(Book):\n    def __init__(self):\n        self.session = Session()\n    def entity_title(self, value):\n        if CustomValidations.validate_string(value):\n            self.title = value\n        else:",
+        "detail": "models.DBRB",
+        "documentation": {}
+    },
+    {
+        "label": "Author",
+        "kind": 6,
+        "importPath": "models.Model",
+        "description": "models.Model",
+        "peekOfCode": "class Author(Base):\n    __tablename__ = 'authors'\n    id = Column(Integer, primary_key=True)\n    name = Column(String)\n    city_id = Column(Integer, ForeignKey('cities.id'))\n    is_active = Column(Boolean, default=True)\n    soft_delete = Column(Boolean, default=False)\n    created_at = Column(DateTime, default=datetime.now)\n    updated_at = Column(DateTime, default=datetime.now, onupdate=datetime.now)\n    city = relationship('City', back_populates='authors')",
+        "detail": "models.Model",
+        "documentation": {}
+    },
+    {
         "label": "User",
         "kind": 6,
         "importPath": "models.Model",
         "description": "models.Model",
-        "peekOfCode": "class User(Base):\n    __tablename__ = \"users\"\n    id = Column(Integer, primary_key=True, index=True)\n    name = Column(String(100), nullable=False)\n    username = Column(String(100), nullable=False)\n    email = Column(String(100), nullable=False, unique=True)\n    password = Column(String(100), nullable=False)\n    role = Column(String(20), nullable=False)\n    created_at = Column(DateTime, default=datetime.utcnow)\n    updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)",
+        "peekOfCode": "class User(Base):\n    __tablename__ = 'users'\n    id = Column(Integer, primary_key=True)\n    first_name = Column(String(75), nullable=False)\n    last_name = Column(String(75), nullable=False)\n    username = Column(String(75), nullable=False)\n    email = Column(String(100), nullable=False, unique=True)\n    password = Column(String(100), nullable=False)\n    role = Column(String(20), nullable=False)\n    membership_type = Column(String(50))",
         "detail": "models.Model",
         "documentation": {}
     },
@@ -381,16 +1245,16 @@
         "kind": 6,
         "importPath": "models.Model",
         "description": "models.Model",
-        "peekOfCode": "class Book(Base):\n    __tablename__ = \"books\"\n    id = Column(Integer, primary_key=True)\n    title = Column(String(200), nullable=False)\n    authors = relationship(\"Author\", secondary=book_author, back_populates=\"books\")\n    created_at = Column(DateTime, default=datetime.utcnow)\n    updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)\nclass Author(Base):\n    __tablename__ = \"authors\"\n    id = Column(Integer, primary_key=True)",
+        "peekOfCode": "class Book(Base):\n    __tablename__ = 'books'\n    id = Column(Integer, primary_key=True, index=True)\n    title = Column(String, index=True)\n    publication_date = Column(DateTime)\n    isbn = Column(String, index=True)\n    price = Column(Integer)\n    genres = relationship('Genre', secondary=book_genre_association, back_populates='books')\n    author_id = Column(Integer, ForeignKey('authors.id'))\n    author = relationship('Author', back_populates='books')",
         "detail": "models.Model",
         "documentation": {}
     },
     {
-        "label": "Author",
+        "label": "City",
         "kind": 6,
         "importPath": "models.Model",
         "description": "models.Model",
-        "peekOfCode": "class Author(Base):\n    __tablename__ = \"authors\"\n    id = Column(Integer, primary_key=True)\n    name = Column(String(100), nullable=False)\n    books = relationship(\"Book\", secondary=book_author, back_populates=\"authors\")\n    created_at = Column(DateTime, default=datetime.utcnow)\n    updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)\nclass Borrowing(Base):\n    __tablename__ = \"borrowings\"\n    id = Column(Integer, primary_key=True, index=True)",
+        "peekOfCode": "class City(Base):\n    __tablename__ = 'cities'\n    id = Column(Integer, primary_key=True)\n    name = Column(String)\n    authors = relationship('Author', back_populates='city', uselist=False)\n    is_active = Column(Boolean, default=True)\n    soft_delete = Column(Boolean, default=False)\n    created_at = Column(DateTime, default=datetime.now)\n    updated_at = Column(DateTime, default=datetime.now, onupdate=datetime.now)\nclass Borrowing(Base):",
         "detail": "models.Model",
         "documentation": {}
     },
@@ -399,70 +1263,340 @@
         "kind": 6,
         "importPath": "models.Model",
         "description": "models.Model",
-        "peekOfCode": "class Borrowing(Base):\n    __tablename__ = \"borrowings\"\n    id = Column(Integer, primary_key=True, index=True)\n    user_id = Column(Integer, ForeignKey(\"users.id\", name=\"fk_borrowings_user_id\"))\n    book_id = Column(Integer, ForeignKey(\"books.id\", name=\"fk_borrowings_book_id\"))\n    due_date = Column(String(20), nullable=False)\n    returned = Column(Boolean, default=False)\n    created_at = Column(DateTime, default=datetime.utcnow)\n    updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)\n    user = relationship(\"User\", back_populates=\"borrowings\")",
+        "peekOfCode": "class Borrowing(Base):\n    __tablename__ = 'borrowings'\n    id = Column(Integer, primary_key=True)\n    book_id = Column(Integer, ForeignKey('books.id'))\n    user_id = Column(Integer, ForeignKey('users.id'))\n    borrowed_at = Column(DateTime, default=datetime.now)\n    expertime_at = Column(DateTime, default=datetime.now)\n    taken_back_at = Column(DateTime, nullable=True)\n    book = relationship('Book')\n    user = relationship('User')",
         "detail": "models.Model",
         "documentation": {}
     },
     {
-        "label": "book_author",
+        "label": "Genre",
+        "kind": 6,
+        "importPath": "models.Model",
+        "description": "models.Model",
+        "peekOfCode": "class Genre(Base):\n    __tablename__ = \"genres\"\n    id = Column(Integer, primary_key=True, index=True)\n    name = Column(String, index=True)\n    books = relationship('Book', secondary=book_genre_association, back_populates='genres')\n    is_active = Column(Boolean, default=True)\n    soft_delete = Column(Boolean, default=False)\n    created_at = Column(DateTime, default=datetime.now)\n    updated_at = Column(DateTime, default=datetime.now, onupdate=datetime.now)\nclass A(Base):",
+        "detail": "models.Model",
+        "documentation": {}
+    },
+    {
+        "label": "A",
+        "kind": 6,
+        "importPath": "models.Model",
+        "description": "models.Model",
+        "peekOfCode": "class A(Base):\n    __tablename__ = \"a\"\n    id = Column(Integer, primary_key=True, index=True)\n    name = Column(String, index=True)\nclass B(Base):\n    __tablename__ = \"b\"\n    id = Column(Integer, primary_key=True, index=True)\n    name = Column(String, index=True)\n    created_at = Column(DateTime, default=func.now())\n    updated_at = Column(DateTime, default=func.now(), onupdate=func.now())",
+        "detail": "models.Model",
+        "documentation": {}
+    },
+    {
+        "label": "B",
+        "kind": 6,
+        "importPath": "models.Model",
+        "description": "models.Model",
+        "peekOfCode": "class B(Base):\n    __tablename__ = \"b\"\n    id = Column(Integer, primary_key=True, index=True)\n    name = Column(String, index=True)\n    created_at = Column(DateTime, default=func.now())\n    updated_at = Column(DateTime, default=func.now(), onupdate=func.now())",
+        "detail": "models.Model",
+        "documentation": {}
+    },
+    {
+        "label": "book_genre_association",
         "kind": 5,
         "importPath": "models.Model",
         "description": "models.Model",
-        "peekOfCode": "book_author = Table(\n    \"book_author\",\n    Base.metadata,\n    Column(\"book_id\", Integer, ForeignKey(\"books.id\")),\n    Column(\"author_id\", Integer, ForeignKey(\"authors.id\"))\n)\nclass User(Base):\n    __tablename__ = \"users\"\n    id = Column(Integer, primary_key=True, index=True)\n    name = Column(String(100), nullable=False)",
+        "peekOfCode": "book_genre_association = Table('book_genre_association', Base.metadata,\n                               Column('book_id', Integer, ForeignKey('books.id')),\n                               Column('genre_id', Integer, ForeignKey('genres.id'))\n                               )\nclass Author(Base):\n    __tablename__ = 'authors'\n    id = Column(Integer, primary_key=True)\n    name = Column(String)\n    city_id = Column(Integer, ForeignKey('cities.id'))\n    is_active = Column(Boolean, default=True)",
         "detail": "models.Model",
         "documentation": {}
     },
     {
-        "label": "User.borrowings",
-        "kind": 5,
-        "importPath": "models.Model",
-        "description": "models.Model",
-        "peekOfCode": "User.borrowings = relationship(\n    \"Borrowing\", back_populates=\"user\", cascade=\"all, delete\"\n)\nBook.borrowings = relationship(\n    \"Borrowing\", back_populates=\"book\", cascade=\"all, delete\"\n)",
-        "detail": "models.Model",
-        "documentation": {}
-    },
-    {
-        "label": "Book.borrowings",
-        "kind": 5,
-        "importPath": "models.Model",
-        "description": "models.Model",
-        "peekOfCode": "Book.borrowings = relationship(\n    \"Borrowing\", back_populates=\"book\", cascade=\"all, delete\"\n)",
-        "detail": "models.Model",
-        "documentation": {}
-    },
-    {
-        "label": "create_user",
+        "label": "view_author",
         "kind": 2,
-        "importPath": "router.users",
-        "description": "router.users",
-        "peekOfCode": "def create_user(user: UserSchemas.UserCreate, db: Session = Depends(get_db)):\n    db_user = db.query(User).filter(User.email == user.email).first()\n    print(db_user)\n    if db_user:\n        raise HTTPException(status_code=400, detail=\"Email already exists\")\n    hashed_password = hash_password(user.password)\n    user = User(name=user.name, email=user.email, username=user.username, role=user.role, password=hashed_password)\n    db.add(user)\n    db.commit()\n    db.refresh(user)",
-        "detail": "router.users",
+        "importPath": "query.view.view_author",
+        "description": "query.view.view_author",
+        "peekOfCode": "def view_author() -> BaseResponse:\n    with Session(bind=engine) as session:\n        result = session.execute(text(\"SELECT id, name,city_id,user_id, is_active, soft_delete, created_at, updated_at FROM authors\"))\n        data = [\n            {\n                \"id\": row.id,\n                \"name\": row.name,\n                \"city_id\": row.city_id,\n                \"user_id\": row.user_id,\n                \"is_active\": row.is_active,",
+        "detail": "query.view.view_author",
         "documentation": {}
     },
     {
-        "label": "aaaaaa",
+        "label": "view_city",
         "kind": 2,
-        "importPath": "router.users",
-        "description": "router.users",
-        "peekOfCode": "def aaaaaa():\n    return {'mmm': \"122\"}",
-        "detail": "router.users",
+        "importPath": "query.view.view_city",
+        "description": "query.view.view_city",
+        "peekOfCode": "def view_city() -> BaseResponse:\n    with Session(bind=engine) as session:\n        result = session.execute(text(\"SELECT id, name, is_active, soft_delete, created_at, updated_at FROM cities\"))\n        data = [\n            {\n                \"id\": row.id,\n                \"name\": row.name,\n                \"is_active\": row.is_active,\n                \"soft_delete\": row.soft_delete,\n                \"created_at\": row.created_at,",
+        "detail": "query.view.view_city",
+        "documentation": {}
+    },
+    {
+        "label": "view_gerne",
+        "kind": 2,
+        "importPath": "query.view.view_genre",
+        "description": "query.view.view_genre",
+        "peekOfCode": "def view_gerne() -> BaseResponse:\n    with Session(bind=engine) as session:\n        result = session.execute(text(\"SELECT id, name, is_active, soft_delete, created_at, updated_at FROM genres\"))\n        data = [\n            {\n                \"id\": row.id,\n                \"name\": row.name,\n                \"is_active\": row.is_active,\n                \"soft_delete\": row.soft_delete,\n                \"created_at\": row.created_at,",
+        "detail": "query.view.view_genre",
+        "documentation": {}
+    },
+    {
+        "label": "get_list_author",
+        "kind": 2,
+        "importPath": "router.author",
+        "description": "router.author",
+        "peekOfCode": "def get_list_author():\n    return view_author()",
+        "detail": "router.author",
         "documentation": {}
     },
     {
         "label": "router",
         "kind": 5,
-        "importPath": "router.users",
-        "description": "router.users",
-        "peekOfCode": "router = APIRouter()\n@router.post('/register/', response_model=UserSchemas.User)\ndef create_user(user: UserSchemas.UserCreate, db: Session = Depends(get_db)):\n    db_user = db.query(User).filter(User.email == user.email).first()\n    print(db_user)\n    if db_user:\n        raise HTTPException(status_code=400, detail=\"Email already exists\")\n    hashed_password = hash_password(user.password)\n    user = User(name=user.name, email=user.email, username=user.username, role=user.role, password=hashed_password)\n    db.add(user)",
-        "detail": "router.users",
+        "importPath": "router.author",
+        "description": "router.author",
+        "peekOfCode": "router = APIRouter()\n@router.get(\"/author/\")\ndef get_list_author():\n    return view_author()",
+        "detail": "router.author",
         "documentation": {}
     },
     {
-        "label": "BaseUser",
+        "label": "create_book_api",
+        "kind": 2,
+        "importPath": "router.book",
+        "description": "router.book",
+        "peekOfCode": "def create_book_api(book: BookCreate, db: Session = Depends(get_db)):\n    try:\n        db_user = create_book(request=book, db=db)\n        data = BookOut(\n            title=db_user.title,\n            author_id=db_user.author_id\n        )\n        response = BaseResponseBook(\n            message={'field': '', 'message': 'Data storage is successful'},\n            data=data,",
+        "detail": "router.book",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "router.book",
+        "description": "router.book",
+        "peekOfCode": "router = APIRouter()\nDEFAULT_PAGE = 1\nDEFAULT_PAGE_SIZE = 10\nbooks = [\n    {\"title\": \"Book 1\", \"description\": \"Description 1\"},\n    {\"title\": \"Book 2\", \"description\": \"Description 2\"},\n    {\"title\": \"Book 3\", \"description\": \"Description 3\"},\n    # ...\n]\n# b = RB()",
+        "detail": "router.book",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_PAGE",
+        "kind": 5,
+        "importPath": "router.book",
+        "description": "router.book",
+        "peekOfCode": "DEFAULT_PAGE = 1\nDEFAULT_PAGE_SIZE = 10\nbooks = [\n    {\"title\": \"Book 1\", \"description\": \"Description 1\"},\n    {\"title\": \"Book 2\", \"description\": \"Description 2\"},\n    {\"title\": \"Book 3\", \"description\": \"Description 3\"},\n    # ...\n]\n# b = RB()\n# b.get_borrowing(borrowing_id)",
+        "detail": "router.book",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_PAGE_SIZE",
+        "kind": 5,
+        "importPath": "router.book",
+        "description": "router.book",
+        "peekOfCode": "DEFAULT_PAGE_SIZE = 10\nbooks = [\n    {\"title\": \"Book 1\", \"description\": \"Description 1\"},\n    {\"title\": \"Book 2\", \"description\": \"Description 2\"},\n    {\"title\": \"Book 3\", \"description\": \"Description 3\"},\n    # ...\n]\n# b = RB()\n# b.get_borrowing(borrowing_id)\n# b.update('test AAAcxc', 1)",
+        "detail": "router.book",
+        "documentation": {}
+    },
+    {
+        "label": "books",
+        "kind": 5,
+        "importPath": "router.book",
+        "description": "router.book",
+        "peekOfCode": "books = [\n    {\"title\": \"Book 1\", \"description\": \"Description 1\"},\n    {\"title\": \"Book 2\", \"description\": \"Description 2\"},\n    {\"title\": \"Book 3\", \"description\": \"Description 3\"},\n    # ...\n]\n# b = RB()\n# b.get_borrowing(borrowing_id)\n# b.update('test AAAcxc', 1)\n# b.commit()",
+        "detail": "router.book",
+        "documentation": {}
+    },
+    {
+        "label": "get_list_city",
+        "kind": 2,
+        "importPath": "router.city",
+        "description": "router.city",
+        "peekOfCode": "def get_list_city():\n    return view_city()",
+        "detail": "router.city",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "router.city",
+        "description": "router.city",
+        "peekOfCode": "router = APIRouter()\n@router.get(\"/city/\")\ndef get_list_city():\n    return view_city()",
+        "detail": "router.city",
+        "documentation": {}
+    },
+    {
+        "label": "get_list_gerne",
+        "kind": 2,
+        "importPath": "router.genre",
+        "description": "router.genre",
+        "peekOfCode": "def get_list_gerne():\n    return view_gerne()",
+        "detail": "router.genre",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "router.genre",
+        "description": "router.genre",
+        "peekOfCode": "router = APIRouter()\n@router.get(\"/gerne/\")\ndef get_list_gerne():\n    return view_gerne()",
+        "detail": "router.genre",
+        "documentation": {}
+    },
+    {
+        "label": "get_tt",
+        "kind": 2,
+        "importPath": "router.tt",
+        "description": "router.tt",
+        "peekOfCode": "def get_tt():\n    return {\"a\": \"bb\"}",
+        "detail": "router.tt",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "router.tt",
+        "description": "router.tt",
+        "peekOfCode": "router = APIRouter()\n@router.get(\"/tt/\")\ndef get_tt():\n    return {\"a\": \"bb\"}",
+        "detail": "router.tt",
+        "documentation": {}
+    },
+    {
+        "label": "AuthorCreate",
+        "kind": 6,
+        "importPath": "schemas.AuthorsSchemas",
+        "description": "schemas.AuthorsSchemas",
+        "peekOfCode": "class AuthorCreate(BaseModel):\n    name: str\n    user_id: int\n    @field_validator('name')\n    def validate_length(cls, value):\n        if len(value) < 2 or len(value) > 100:\n            raise ValueError('Field length should be between 2 and 100 characters')\n        return value\nclass AuthorOut(BaseModel):\n    id: int",
+        "detail": "schemas.AuthorsSchemas",
+        "documentation": {}
+    },
+    {
+        "label": "AuthorOut",
+        "kind": 6,
+        "importPath": "schemas.AuthorsSchemas",
+        "description": "schemas.AuthorsSchemas",
+        "peekOfCode": "class AuthorOut(BaseModel):\n    id: int\n    name: str\n    user_id: int\n    class Config:\n        from_attributes = True\nclass AuthorUpdate(BaseModel):\n    name: str\n    user_id: int\n    is_active: Optional[bool]",
+        "detail": "schemas.AuthorsSchemas",
+        "documentation": {}
+    },
+    {
+        "label": "AuthorUpdate",
+        "kind": 6,
+        "importPath": "schemas.AuthorsSchemas",
+        "description": "schemas.AuthorsSchemas",
+        "peekOfCode": "class AuthorUpdate(BaseModel):\n    name: str\n    user_id: int\n    is_active: Optional[bool]\n    soft_delete: Optional[bool]\n    @field_validator('name')\n    def validate_length(cls, value):\n        if len(value) < 2 or len(value) > 100:\n            raise ValueError('Field length should be between 2 and 100 characters')\n        return value",
+        "detail": "schemas.AuthorsSchemas",
+        "documentation": {}
+    },
+    {
+        "label": "BaseResponse",
+        "kind": 6,
+        "importPath": "schemas.BaseResponse",
+        "description": "schemas.BaseResponse",
+        "peekOfCode": "class BaseResponse(BaseModel):\n    success: bool = True\n    message: dict\n    data: list\n    time: str = str(datetime.now())\n    v: int = 1\nclass BaseResponseUser(BaseResponse):\n    data: UserOut\nclass BaseResponseBook(BaseResponse):\n    data: BookOut",
+        "detail": "schemas.BaseResponse",
+        "documentation": {}
+    },
+    {
+        "label": "BaseResponseUser",
+        "kind": 6,
+        "importPath": "schemas.BaseResponse",
+        "description": "schemas.BaseResponse",
+        "peekOfCode": "class BaseResponseUser(BaseResponse):\n    data: UserOut\nclass BaseResponseBook(BaseResponse):\n    data: BookOut\nclass BaseResponseAuthor(BaseResponse):\n    data: AuthorOut\nclass BaseResponseBorrowing(BaseResponse):\n    data: BorrowingOut\ndef validate_response(filed: str , errors: dict) -> dict:\n    return {'field': filed, 'message': {",
+        "detail": "schemas.BaseResponse",
+        "documentation": {}
+    },
+    {
+        "label": "BaseResponseBook",
+        "kind": 6,
+        "importPath": "schemas.BaseResponse",
+        "description": "schemas.BaseResponse",
+        "peekOfCode": "class BaseResponseBook(BaseResponse):\n    data: BookOut\nclass BaseResponseAuthor(BaseResponse):\n    data: AuthorOut\nclass BaseResponseBorrowing(BaseResponse):\n    data: BorrowingOut\ndef validate_response(filed: str , errors: dict) -> dict:\n    return {'field': filed, 'message': {\n        \"errors\": errors\n    }}",
+        "detail": "schemas.BaseResponse",
+        "documentation": {}
+    },
+    {
+        "label": "BaseResponseAuthor",
+        "kind": 6,
+        "importPath": "schemas.BaseResponse",
+        "description": "schemas.BaseResponse",
+        "peekOfCode": "class BaseResponseAuthor(BaseResponse):\n    data: AuthorOut\nclass BaseResponseBorrowing(BaseResponse):\n    data: BorrowingOut\ndef validate_response(filed: str , errors: dict) -> dict:\n    return {'field': filed, 'message': {\n        \"errors\": errors\n    }}",
+        "detail": "schemas.BaseResponse",
+        "documentation": {}
+    },
+    {
+        "label": "BaseResponseBorrowing",
+        "kind": 6,
+        "importPath": "schemas.BaseResponse",
+        "description": "schemas.BaseResponse",
+        "peekOfCode": "class BaseResponseBorrowing(BaseResponse):\n    data: BorrowingOut\ndef validate_response(filed: str , errors: dict) -> dict:\n    return {'field': filed, 'message': {\n        \"errors\": errors\n    }}",
+        "detail": "schemas.BaseResponse",
+        "documentation": {}
+    },
+    {
+        "label": "validate_response",
+        "kind": 2,
+        "importPath": "schemas.BaseResponse",
+        "description": "schemas.BaseResponse",
+        "peekOfCode": "def validate_response(filed: str , errors: dict) -> dict:\n    return {'field': filed, 'message': {\n        \"errors\": errors\n    }}",
+        "detail": "schemas.BaseResponse",
+        "documentation": {}
+    },
+    {
+        "label": "BookCreate",
+        "kind": 6,
+        "importPath": "schemas.BooksSchemas",
+        "description": "schemas.BooksSchemas",
+        "peekOfCode": "class BookCreate(BaseModel):\n    title: str\n    author_id: int\n    is_active: bool\n    @field_validator('title')\n    def validate_length(cls, value):\n        if len(value) < 2 or len(value) > 100:\n            raise ValueError('Field length should be between 2 and 100 characters')\n        return value\nclass BookOut(BaseModel):",
+        "detail": "schemas.BooksSchemas",
+        "documentation": {}
+    },
+    {
+        "label": "BookOut",
+        "kind": 6,
+        "importPath": "schemas.BooksSchemas",
+        "description": "schemas.BooksSchemas",
+        "peekOfCode": "class BookOut(BaseModel):\n    title: str\n    author_id: int\n    class Config:\n        from_attributes = True\nclass BookUpdate(BaseModel):\n    title: str\n    author_id: int\n    is_active: Optional[bool]\n    soft_delete: Optional[bool]",
+        "detail": "schemas.BooksSchemas",
+        "documentation": {}
+    },
+    {
+        "label": "BookUpdate",
+        "kind": 6,
+        "importPath": "schemas.BooksSchemas",
+        "description": "schemas.BooksSchemas",
+        "peekOfCode": "class BookUpdate(BaseModel):\n    title: str\n    author_id: int\n    is_active: Optional[bool]\n    soft_delete: Optional[bool]\n    @field_validator('title')\n    def validate_length(cls, value):\n        if len(value) < 2 or len(value) > 100:\n            raise ValueError('Field length should be between 2 and 100 characters')\n        return value",
+        "detail": "schemas.BooksSchemas",
+        "documentation": {}
+    },
+    {
+        "label": "BorrowingCreate",
+        "kind": 6,
+        "importPath": "schemas.BrowingSchemas",
+        "description": "schemas.BrowingSchemas",
+        "peekOfCode": "class BorrowingCreate(BaseModel):\n    book_id: int\n    user_id: int\n    borrowed_at: datetime\n    expertime_at: datetime\nclass BorrowingOut(BaseModel):\n    book_id: int\n    user_id: int\n    borrowed_at: datetime\n    expertime_at: datetime",
+        "detail": "schemas.BrowingSchemas",
+        "documentation": {}
+    },
+    {
+        "label": "BorrowingOut",
+        "kind": 6,
+        "importPath": "schemas.BrowingSchemas",
+        "description": "schemas.BrowingSchemas",
+        "peekOfCode": "class BorrowingOut(BaseModel):\n    book_id: int\n    user_id: int\n    borrowed_at: datetime\n    expertime_at: datetime\n    taken_back_at: datetime\n    class Config:\n        from_attributes = True\nclass BorrowingUpdate(BaseModel):\n    book_id: Optional[int]",
+        "detail": "schemas.BrowingSchemas",
+        "documentation": {}
+    },
+    {
+        "label": "BorrowingUpdate",
+        "kind": 6,
+        "importPath": "schemas.BrowingSchemas",
+        "description": "schemas.BrowingSchemas",
+        "peekOfCode": "class BorrowingUpdate(BaseModel):\n    book_id: Optional[int]\n    user_id: Optional[int]\n    borrowed_at: Optional[datetime]\n    expertime_at: Optional[datetime]\n    taken_back_at: Optional[datetime]\n    is_active: Optional[bool]\n    soft_delete: Optional[bool]\nclass BorrowingOutUpdate(BaseModel):\n    book_id: Optional[int]",
+        "detail": "schemas.BrowingSchemas",
+        "documentation": {}
+    },
+    {
+        "label": "BorrowingOutUpdate",
+        "kind": 6,
+        "importPath": "schemas.BrowingSchemas",
+        "description": "schemas.BrowingSchemas",
+        "peekOfCode": "class BorrowingOutUpdate(BaseModel):\n    book_id: Optional[int]\n    user_id: Optional[int]\n    borrowed_at: Optional[datetime]\n    expertime_at: Optional[datetime]\n    taken_back_at: Optional[datetime]\n    is_active: Optional[bool]\n    soft_delete: Optional[bool]",
+        "detail": "schemas.BrowingSchemas",
+        "documentation": {}
+    },
+    {
+        "label": "GetUser",
         "kind": 6,
         "importPath": "schemas.UserSchemas",
         "description": "schemas.UserSchemas",
-        "peekOfCode": "class BaseUser(BaseModel):\n    email: str\n    username: str\nclass UserCreate(BaseUser):\n    password: str\n    name: str\n    email: str\n    role: str\nclass User(BaseUser):\n    id: int",
+        "peekOfCode": "class GetUser(BaseModel):\n    id: int\nclass UserCreate(BaseModel):\n    name: str\n    username: str\n    email: EmailStr\n    password: str\n    role: str\n    @field_validator('name', 'username')\n    def validate_length(cls, value):",
         "detail": "schemas.UserSchemas",
         "documentation": {}
     },
@@ -471,17 +1605,35 @@
         "kind": 6,
         "importPath": "schemas.UserSchemas",
         "description": "schemas.UserSchemas",
-        "peekOfCode": "class UserCreate(BaseUser):\n    password: str\n    name: str\n    email: str\n    role: str\nclass User(BaseUser):\n    id: int\n    class Config:\n        from_attributes = True",
+        "peekOfCode": "class UserCreate(BaseModel):\n    name: str\n    username: str\n    email: EmailStr\n    password: str\n    role: str\n    @field_validator('name', 'username')\n    def validate_length(cls, value):\n        if len(value) < 2 or len(value) > 100:\n            raise ValueError('Field length should be between 2 and 100 characters')",
         "detail": "schemas.UserSchemas",
         "documentation": {}
     },
     {
-        "label": "User",
+        "label": "UserUpdate",
         "kind": 6,
         "importPath": "schemas.UserSchemas",
         "description": "schemas.UserSchemas",
-        "peekOfCode": "class User(BaseUser):\n    id: int\n    class Config:\n        from_attributes = True",
+        "peekOfCode": "class UserUpdate(BaseModel):\n    name: str\n    username: str\n    email: EmailStr\n    role: str\n    @field_validator('name', 'username')\n    def validate_length(cls, value: str) -> str:\n        if len(value) < 2 or len(value) > 100:\n            raise ValueError('Field length should be between 2 and 100 characters')\n        return value",
         "detail": "schemas.UserSchemas",
+        "documentation": {}
+    },
+    {
+        "label": "UserOut",
+        "kind": 6,
+        "importPath": "schemas.UserSchemas",
+        "description": "schemas.UserSchemas",
+        "peekOfCode": "class UserOut(UserUpdate):\n    id: int\n    name: str\n    username: str\n    class Config:\n        from_attributes = True",
+        "detail": "schemas.UserSchemas",
+        "documentation": {}
+    },
+    {
+        "label": "CustomValidations",
+        "kind": 6,
+        "importPath": "utility.CustomValidations",
+        "description": "utility.CustomValidations",
+        "peekOfCode": "class CustomValidations:\n    def validate_string(self, value, min_length=3, max_length=75):\n        if not isinstance(value, str):\n            return False\n        length = len(value)\n        if length < min_length or length > max_length:\n            return False\n        return True\n    def validate_date(self, publication_date):\n        try:",
+        "detail": "utility.CustomValidations",
         "documentation": {}
     },
     {
@@ -494,21 +1646,21 @@
         "documentation": {}
     },
     {
-        "label": "hash_password",
-        "kind": 2,
-        "importPath": "utility.hashed_password",
-        "description": "utility.hashed_password",
-        "peekOfCode": "def hash_password(password):\n    return pwd_context.hash(password)",
-        "detail": "utility.hashed_password",
+        "label": "Hash",
+        "kind": 6,
+        "importPath": "utility.hash",
+        "description": "utility.hash",
+        "peekOfCode": "class Hash:\n    @staticmethod\n    def hash_password(password):\n        return pwd_context.hash(password)\n    @staticmethod\n    def verify_password(password, hashed_password):\n        return pwd_context.verify(password, hashed_password)",
+        "detail": "utility.hash",
         "documentation": {}
     },
     {
         "label": "pwd_context",
         "kind": 5,
-        "importPath": "utility.hashed_password",
-        "description": "utility.hashed_password",
-        "peekOfCode": "pwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\ndef hash_password(password):\n    return pwd_context.hash(password)",
-        "detail": "utility.hashed_password",
+        "importPath": "utility.hash",
+        "description": "utility.hash",
+        "peekOfCode": "pwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\nclass Hash:\n    @staticmethod\n    def hash_password(password):\n        return pwd_context.hash(password)\n    @staticmethod\n    def verify_password(password, hashed_password):\n        return pwd_context.verify(password, hashed_password)",
+        "detail": "utility.hash",
         "documentation": {}
     },
     {
@@ -516,7 +1668,7 @@
         "kind": 2,
         "importPath": "config",
         "description": "config",
-        "peekOfCode": "def startup_event():\n    log_dir = 'logs'\n    log_file = 'sever_time_log.log'\n    log_path = os.path.join(log_dir, log_file)\n    os.makedirs(log_dir, exist_ok=True)\n    with open(log_path, 'a') as log:\n        log.write(70*\"=\" + '\\n')\n        log.write(f'Application started at: {datetime.datetime.now()} \\n')\n@app.on_event('shutdown')\ndef shutdown_event():",
+        "peekOfCode": "def startup_event():\n    log_dir = 'logs'\n    log_file = 'sever_time_log.log'\n    log_path = os.path.join(log_dir, log_file)\n    os.makedirs(log_dir, exist_ok=True)\n    with open(log_path, 'a') as log:\n        log.write(70 * \"=\" + '\\n')\n        log.write(f'Application started at: {datetime.datetime.now()} \\n')\n@app.on_event('shutdown')\ndef shutdown_event():",
         "detail": "config",
         "documentation": {}
     },
@@ -534,7 +1686,7 @@
         "kind": 5,
         "importPath": "config",
         "description": "config",
-        "peekOfCode": "app = FastAPI()\napp.include_router(users.router, tags=['users'])\n@app.middleware('http')\nasync def add_process_time_header(request, call_next):\n    start_time = time.time()\n    response = await call_next(request)\n    process_time = time.time() - start_time\n    response.headers['X-Process-Time'] = str(process_time)\n    return response\n@app.on_event('startup')",
+        "peekOfCode": "app = FastAPI(title=\"Library\")\napp.include_router(tt.router, tags=['tt'])\napp.include_router(book.router, tags=['book'])\napp.include_router(city.router, tags=['city'])\napp.include_router(genre.router, tags=['genre'])\napp.include_router(author.router, tags=['author'])\n# app.include_router(auth_handler.router, tags=['tocken'])\n@app.middleware('http')\nasync def add_process_time_header(request, call_next):\n    start_time = time.time()",
         "detail": "config",
         "documentation": {}
     }

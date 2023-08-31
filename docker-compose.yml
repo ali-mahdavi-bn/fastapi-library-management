@@ -1,0 +1,101 @@
+services:
+  rabbitmq:
+    container_name: rabbitmq
+    image: rabbitmq:latest
+    networks:
+      - main
+    ports:
+      - 5672:5672
+    restart: always
+
+  postgres:
+    container_name: postgres
+    image: postgres:latest
+    restart: always
+    environment:
+      POSTGRES_USER: lib
+      POSTGRES_PASSWORD: lib
+      POSTGRES_DB: lib
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+    networks:
+      - main
+
+  pgadmin:
+    container_name: pgadmin
+    image: dpage/pgadmin4
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@admin.com
+      PGADMIN_DEFAULT_PASSWORD: root
+    ports:
+      - 5050:80
+    networks:
+      - main
+  redis:
+    image: redis:latest
+    container_name: redis
+    ports:
+      - "6379:6379"
+    networks:
+      - main
+  app:
+    build: .
+    container_name: app
+    ports:
+      - 8000:8000
+    volumes:
+      - .:/app
+    depends_on:
+      - elasticsearch
+      - postgres
+      - redis
+    restart: always
+    networks:
+      - main
+
+  celery_worker:
+    container_name: celery_worker
+    command: "celery -A celery_conf worker -l INFO"
+    depends_on:
+      - elasticsearch
+      - postgres
+      - rabbitmq
+      - app
+    build: .
+    environment:
+      C_FORCE_ROOT: "true"
+    restart: always
+    networks:
+      - main
+
+  elasticsearch:
+    container_name: elasticsearch
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.10.1
+    restart: always
+    networks:
+      - main
+    ports:
+      - 9200:9200
+    environment:
+      - discovery.type=single-node
+  nginx:
+    container_name: nginx
+    image: nginx:latest
+    command: nginx -g 'daemon off;'
+    depends_on:
+      - app
+    networks:
+      - main
+    ports:
+      - 80:80
+    restart: always
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+
+networks:
+  main:
+volumes:
+  postgres_data:
