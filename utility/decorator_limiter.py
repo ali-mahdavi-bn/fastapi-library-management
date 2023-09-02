@@ -21,7 +21,7 @@ def rate_limit(limit: int, interval: int):
                 else:
                     redis_client.incr(key)
             else:
-                redis_client.setex(key, interval, 1)
+                redis_client.set(key, 1, ex=interval)
 
             return func(request)
 
